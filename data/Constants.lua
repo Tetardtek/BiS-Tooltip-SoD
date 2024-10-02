@@ -1,15 +1,9 @@
-BisTooltip_Phases = {
-    "Pre-Raid P1",
-    "BiS P1",
-    "Pre-Raid P2",
-    "BiS P2",
-    "Pre-Raid P3",
-    "BiS P3",
-}
+BisTooltip_Phases = {"Pre-Raid P1", "BiS P1", "Pre-Raid P2", "BiS P2", "Pre-Raid P3", "BiS P3", "Pre-Raid P4",
+                     "BiS MC H3 P4", "BiS BwL P5"}
 
 BisTooltip_Source_To_URL = {
     -- ["wh"] = "https://www.wowhead.com/classic",
-    ["wh"] = "https://www.zockify.com/wowclassic",
+    ["wh"] = "https://www.zockify.com/wowclassic"
 }
 
 BisTooltip_Class_Indexes = {
@@ -30,50 +24,50 @@ Spec_Icons = {
         ["Balance"] = 136096,
         ["Tank"] = 132276,
         ["Feral"] = 132115,
-        ["Healer"] = 136041,
+        ["Healer"] = 136041
     },
     ["Hunter"] = {
         ["ClassIcon"] = 626000,
-        ["DPS"] = 626000,
+        ["DPS"] = 626000
     },
     ["Mage"] = {
         ["ClassIcon"] = 626001,
         ["DPS"] = 626001,
-        ["Healer"] = 132871,
+        ["Healer"] = 132871
     },
     ["Paladin"] = {
         ["ClassIcon"] = 626003,
         ["Healer"] = 135920,
         ["Tank"] = 135893,
-        ["DPS"] = 135873,
+        ["DPS"] = 135873
     },
     ["Priest"] = {
         ["ClassIcon"] = 626004,
         ["Healer"] = 135987,
-        ["DPS"] = 136207,
+        ["DPS"] = 136207
     },
     ["Rogue"] = {
         ["ClassIcon"] = 626005,
         ["DPS"] = 626005,
-        ["Tank"] = 236550,
+        ["Tank"] = 236550
     },
     ["Shaman"] = {
         ["ClassIcon"] = 626006,
         ["Elemental"] = 136048,
         ["Enhancement"] = 136051,
         ["Tank"] = 134963,
-        ["Healer"] = 136052,
+        ["Healer"] = 136052
     },
     ["Warlock"] = {
         ["ClassIcon"] = 626007,
         ["DPS"] = 626007,
-        ["Tank"] = 237558,
+        ["Tank"] = 237558
     },
     ["Warrior"] = {
         ["ClassIcon"] = 626008,
         ["DPS"] = 132347,
-        ["Tank"] = 134952,
-    },
+        ["Tank"] = 134952
+    }
 }
 
 BisTooltip_Classes = {
@@ -83,13 +77,13 @@ BisTooltip_Classes = {
             [1] = "Balance",
             [2] = "Tank",
             [3] = "Feral",
-            [4] = "Healer",
+            [4] = "Healer"
         }
     },
     [2] = {
         ["name"] = "Hunter",
         ["specs"] = {
-            [1] = "DPS",
+            [1] = "DPS"
         }
     },
 
@@ -97,7 +91,7 @@ BisTooltip_Classes = {
         ["name"] = "Mage",
         ["specs"] = {
             [1] = "DPS",
-            [2] = "Healer",
+            [2] = "Healer"
         }
     },
     [4] = {
@@ -105,21 +99,21 @@ BisTooltip_Classes = {
         ["specs"] = {
             [1] = "Healer",
             [2] = "Tank",
-            [3] = "DPS",
+            [3] = "DPS"
         }
     },
     [5] = {
         ["name"] = "Priest",
         ["specs"] = {
             [1] = "Healer",
-            [2] = "DPS",
+            [2] = "DPS"
         }
     },
     [6] = {
         ["name"] = "Rogue",
         ["specs"] = {
             [1] = "DPS",
-            [2] = "Tank",
+            [2] = "Tank"
         }
     },
     [7] = {
@@ -128,21 +122,21 @@ BisTooltip_Classes = {
             [1] = "Elemental",
             [2] = "Enhancement",
             [3] = "Healer",
-            [4] = "Tank",
+            [4] = "Tank"
         }
     },
     [8] = {
         ["name"] = "Warlock",
         ["specs"] = {
             [1] = "DPS",
-            [2] = "Tank",
+            [2] = "Tank"
         }
     },
     [9] = {
         ["name"] = "Warrior",
         ["specs"] = {
             [1] = "DPS",
-            [2] = "Tank",
+            [2] = "Tank"
         }
-    },
+    }
 }
