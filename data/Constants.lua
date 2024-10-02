@@ -1,5 +1,5 @@
 BisTooltip_Phases = {"Pre-Raid P1", "BiS P1", "Pre-Raid P2", "BiS P2", "Pre-Raid P3", "BiS P3", "Pre-Raid P4",
-                     "BiS MC H3 P4", "BiS BwL P5"}
+                     "BiS MC H3 P4", "Pre-Raid P5", "BiS BwL P5"}
 
 BisTooltip_Source_To_URL = {
     -- ["wh"] = "https://www.wowhead.com/classic",
